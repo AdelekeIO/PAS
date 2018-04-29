@@ -1,0 +1,232 @@
+html
+{
+	height: 100%;
+	width: 100%;
+
+}
+h1{
+	font-weight: bolder;
+	font-size: 3em;
+}
+body{
+
+	background-color:#191970; 
+	font-weight: normal;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	font-family: verdana,Arial,Helvetica;
+	/*background: #D4E6fa;*/
+	font-size: 13px;
+	line-height: 15px;
+	text-indent: 2em;
+	
+
+}
+.form td{
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+a{color: #8D0D19}
+#navigation a 
+{
+	color: #D4E6FA;
+	text-decoration: none;
+
+}
+
+
+ul{
+	padding-left: 0;
+	list-style: square;
+
+}
+.content li{
+	list-style: georgian;
+	color: #800000;
+	font-size: 16px;
+}
+
+.navigation{
+
+	width: 170px;
+	height: 80em;
+	padding: 1em 2em;
+	color: darkgrey;
+	background: #800000;
+	vertical-align: text-top;
+	text-align: left;
+
+	
+	
+
+
+}
+
+.skeleton{
+	/*vertical-align: 1em;*/
+	width: 95%;
+	height: inherit;
+	/*background-color: #FFF0F5;/*Levenderblush*/*/
+	margin-right: ;
+	margin-left: ;
+	margin-top: 4em;
+
+
+}
+.navigation li a{
+	color: #D4E6FA;
+	font-size: 15px;
+	margin-top: 3em;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.content{
+padding-left: 2em;
+	vertical-align: top;
+	background: #EEE4B9;
+	text-align: left;
+	color: black;
+	font: verdana;
+}
+
+.content h2{
+	font-size: 2em;
+	color: #800000;
+}
+
+.selected
+ {
+ 	font-weight: bold;
+ 	/*color: yellow;*/
+ 	font-size: 16px;
+ }
+
+
+
+#footer
+{
+	height: 2em;
+	margin: 0px;
+	padding: 1em;
+	text-align: center;
+	background: #191970;
+	color: #D4E6fa;
+}
+
+#navigation a 
+{
+	color: #D4E6FA;
+	text-decoration: none;
+
+}
+na
+
+.content a{
+	color: #800000;
+}
+#questionPane  
+{
+    border-bottom: 0pt #000000 groove;
+    height: 60%;
+    width: 70%;
+    /*border: 2pt   #8f4c64 solid;*/
+    border: 10px #ec87a5 groove;
+    border-radius: 15px ;
+    background-color: white;
+    text-align: left;
+    text-transform: fullsize-kana;
+    font-family: serif,Verdana, Arial, 'Trebuchet MS','Times New Roman';
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #060509;
+    word-spacing: 1px;
+    padding: 1.5em;
+    overflow-y: auto;
+    overflow-x: auto;
+    list-style-type: decimal;
+    list-style: decimal;
+}
+#options
+{
+    
+    padding: 5px 5px 10px 10px;
+    margin-bottom: 8px;
+    border-bottom: 2px #ff1b7c solid;
+}
+#submitsc
+{
+    text-align: center;
+    border: 10px #ff1b7c groove;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight:  bold;
+    font-size: 14pt;
+    font-style:  oblique;
+    
+}
+.appraise  table thead th {
+    color: #FFF;
+    background-color: #645951;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: auto;
+    vertical-align: middle;
+    margin: 0px;
+}
+.appraise table{
+	text-align: left;
+	line-height: normal;
+	width: 50em;
+	padding: 0%;
+
+}
+.details{
+	float: right;
+	width: 20em;
+	color: #800000;
+	font: verdana;
+	font-size: 10pt;
+	border: 1px solid #009900;
+	margin-top:5em;
+	margin-right: 3em;
+	padding: 1em;
+	border-radius: 1em;
+
+
+}
+.tooltip{
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted black;
+	}
+	.tooltip .tooltiptext{
+		visibility: hidden;
+		width: 180px;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		padding: 5px 0;
+		border-radius: 6px;
+		top: -5px;
+		left: 105%;
+
+		/*position the toltip text */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext{
+		visibility: visible;
+	}
+
+/**peter okebukola**/
